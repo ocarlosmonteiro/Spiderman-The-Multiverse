@@ -1,0 +1,41 @@
+@import url(../global.css);
+
+a.link-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+a.link-button .icon
+{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 3px;
+    background-color: var(--primary-color);
+    border:  solid 1px white;
+    background-clip: content-box;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.link-button .icon .play-icon
+{
+    border: solid 7px white;
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-right: -7px;
+}
+
+a.link-buttom .label
+{
+    margin-left: 10px;
+}
